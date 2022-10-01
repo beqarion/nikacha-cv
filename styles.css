@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  /* line-height:100% */
+}
+@media print {
+  html{
+    font-size:12px;
+  }
+}
+body {
+  max-width: 980px;
+  margin: auto;
+}
+
+header {
+  margin-bottom: 3rem;
+}
+
+header hr {
+  border: 2px solid rgb(40, 40, 40);
+}
+
+section {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+ul {
+  padding-left: 0;
+}
+ul li {
+  list-style-position: inside;
+  list-style-type: square;
+}
+
+.two-cols {
+  display: flex;
+  min-width: 0;
+  align-items: flex-start;
+}
+.two-cols .main-content {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.two-cols .sidebar {
+  width: 20%;
+}
+.two-cols .sidebar img {
+  width: 100%;
+  height: auto;
+}
+.two-cols p.sidebar {
+  font-weight: bold;
+  color: white;
+  background: black;
+  padding: 0.7rem;
+}
+.two-cols .main-content {
+  width: 80%;
+}
+
+.address-mail-phone {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.address-mail-phone p {
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+.phone {
+  display: flex;
+  justify-content: flex-end;
+}
+.phone p {
+  margin-top: 0;
+}
+
+.one-job {
+  display: flex;
+  justify-content: space-between;
+}
+
+.one-job-description-employer {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.one-job-description-role {
+  margin-top: 0;
+  font-weight: 500;
+}
+
+.one-job-years {
+  font-size: 1.2rem;
+}
