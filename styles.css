@@ -25,27 +25,35 @@
 
 * {
   box-sizing: border-box;
-  /* line-height:100% */
+  line-height: 100%;
 }
 @media print {
   html {
-    font-size: 10px;
+    font-size: 14px;
   }
 }
-html{
+html {
   font-family: "NotoSansGeorgian";
 }
 body {
   max-width: 980px;
   margin: auto;
+  padding: 1rem;
 }
 
 header {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
-header h1{
+
+hr{
+  margin:0;
+}
+
+header h1 {
   font-family: "NotoSerifGeorgian";
-  font-size: 3rem
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 header hr {
@@ -53,8 +61,8 @@ header hr {
 }
 
 section {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
 }
 
 ul {
@@ -72,7 +80,6 @@ ul li {
 }
 .two-cols .main-content {
   margin-left: 2rem;
-  margin-right: 2rem;
 }
 .two-cols .sidebar {
   width: 20%;
@@ -101,6 +108,11 @@ ul li {
   font-style: italic;
 }
 
+.mail{
+  display: flex;
+  justify-content: flex-end;
+}
+
 .phone {
   display: flex;
   justify-content: flex-end;
@@ -126,6 +138,6 @@ ul li {
 }
 
 .one-job-years {
-  min-width:6rem;
+  min-width: 6rem;
   font-size: 1.2rem;
 }
