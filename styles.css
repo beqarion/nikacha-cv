@@ -108,6 +108,11 @@ ul li {
   font-style: italic;
 }
 
+.mail{
+  display: flex;
+  justify-content: flex-end;
+}
+
 .phone {
   display: flex;
   justify-content: flex-end;
