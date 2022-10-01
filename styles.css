@@ -1,10 +1,35 @@
+@font-face {
+  font-family: "NotoSansGeorgian";
+  src: url("./fonts/sans/NotoSansGeorgian-Regular.ttf");
+}
+@font-face {
+  font-family: "NotoSansGeorgian";
+  src: url("./fonts/sans/NotoSansGeorgian-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "NotoSansGeorgian";
+  src: url("./fonts/sans/NotoSansGeorgian-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "NotoSerifGeorgian";
+  src: url("./fonts/serif/NotoSerifGeorgian-Regular.ttf");
+}
+@font-face {
+  font-family: "NotoSerifGeorgian";
+  src: url("./fonts/serif/NotoSerifGeorgian-Bold.ttf");
+  font-weight: 700;
+}
+
 * {
   box-sizing: border-box;
   /* line-height:100% */
 }
 @media print {
   html {
-    font-size: 11px;
+    font-size: 10px;
   }
 }
 html{
@@ -20,7 +45,7 @@ header {
 }
 header h1{
   font-family: "NotoSerifGeorgian";
-  /* font-size: 3rem */
+  font-size: 3rem
 }
 
 header hr {
