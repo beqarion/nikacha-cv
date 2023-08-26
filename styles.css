@@ -42,7 +42,7 @@ body {
 }
 
 header {
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 hr {
@@ -61,8 +61,8 @@ header hr {
 }
 
 section {
-  margin-bottom: 0.75rem;
-  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
 }
 
 ul {
