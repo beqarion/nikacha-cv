@@ -45,8 +45,8 @@ header {
   margin-bottom: 1rem;
 }
 
-hr{
-  margin:0;
+hr {
+  margin: 0;
 }
 
 header h1 {
@@ -108,7 +108,7 @@ ul li {
   font-style: italic;
 }
 
-.mail{
+.mail {
   display: flex;
   justify-content: flex-end;
 }
@@ -125,19 +125,28 @@ ul li {
   display: flex;
   justify-content: space-between;
 }
+.one-job:not(:last-child) {
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 3px 3px -3px;
+}
 
 .one-job-description-employer {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
+  color: rgba(16, 16, 16);
 }
 
 .one-job-description-role {
   margin-top: 0;
   font-weight: 500;
+  font-size: 0.875rem;
+  color: rgba(32, 32, 32, 0.9);
+  margin-bottom: 8px;
 }
 
 .one-job-years {
   min-width: 6rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  color: rgba(16, 16, 16, 0.9);
+  align-self: center;
 }
